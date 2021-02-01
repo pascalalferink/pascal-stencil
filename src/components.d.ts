@@ -10,46 +10,45 @@ import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 
 
 export namespace Components {
-  interface WbFooter {
+  interface PascalFooter {
     'class': string;
     'copyright': string;
   }
 }
 
-  declare global {
-
-    interface HTMLWbFooterElement extends Components.WbFooter, HTMLStencilElement { }
-    var HTMLWbFooterElement: {
-      prototype: HTMLWbFooterElement;
-      new(): HTMLWbFooterElement;
-    };
+declare global {
 
 
-    interface HTMLElementTagNameMap {
-      'wb-footer': HTMLWbFooterElement;
-    }
+  interface HTMLPascalFooterElement extends Components.PascalFooter, HTMLStencilElement {}
+  var HTMLPascalFooterElement: {
+    prototype: HTMLPascalFooterElement;
+    new (): HTMLPascalFooterElement;
+  };
+  interface HTMLElementTagNameMap {
+    'pascal-footer': HTMLPascalFooterElement;
+  }
+}
+
+declare namespace LocalJSX {
+  interface PascalFooter {
+    'class'?: string;
+    'copyright'?: string;
   }
 
-  declare namespace LocalJSX {
-    interface WbFooter {
-      'class'?: string;
-      'copyright'?: string;
-    }
+  interface IntrinsicElements {
+    'pascal-footer': PascalFooter;
+  }
+}
 
+export { LocalJSX as JSX };
+
+
+declare module "@stencil/core" {
+  export namespace JSX {
     interface IntrinsicElements {
-      'wb-footer': WbFooter;
+      'pascal-footer': LocalJSX.PascalFooter & JSXBase.HTMLAttributes<HTMLPascalFooterElement>;
     }
   }
-
-  export { LocalJSX as JSX };
-
-
-  declare module "@stencil/core" {
-    export namespace JSX {
-      interface IntrinsicElements {
-        'wb-footer': LocalJSX.WbFooter & JSXBase.HTMLAttributes<HTMLWbFooterElement>;
-      }
-    }
-  }
+}
 
 

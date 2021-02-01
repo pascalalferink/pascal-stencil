@@ -1,25 +1,25 @@
-.wb-hide {
+.pascal-hide {
     display: none;
 }
 
 @media print, screen and (min-width: 40em) {
-    .wb-sm-hide {
+    .pascal-sm-hide {
         display: none;
     }
 }
 
 @media print, screen and (min-width: 48em) {
-    .wb-md-hide {
+    .pascal-md-hide {
         display: none;
     }
 }
 @media print, screen and (min-width: 64em) {
-    .wb-lg-hide {
+    .pascal-lg-hide {
         display: none;
     }
 }
 @media print, screen and (min-width: 75em) {
-    .wb-xl-hide {
+    .pascal-xl-hide {
         display: none;
     }
 }

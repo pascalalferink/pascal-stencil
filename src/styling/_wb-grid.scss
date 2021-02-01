@@ -1,4 +1,4 @@
-.wb-row {
+.pascal-row {
     margin-right: auto;
     margin-left: auto;
     display: -ms-flexbox;
@@ -9,7 +9,7 @@
     margin-left: -1rem;
   }
 
-  .wb-col {
+  .pascal-col {
     padding-right: 1rem;
     padding-left: 1rem;
     flex-basis: 0;
@@ -26,7 +26,7 @@
   }
 
   @for $i from 1 through $columCount {
-    .wb-col-#{$i} {
+    .pascal-col-#{$i} {
       $columWidth: ($i/$columCount) * 100%;
       @include gridItem($columWidth);
     }
@@ -35,10 +35,10 @@
   @media print, screen and (min-width: 40em) {
     @for $i from 1 through $columCount {
       $columWidth: ($i/$columCount) * 100%;
-      .wb-col-sm-#{$i} {
+      .pascal-col-sm-#{$i} {
         @include gridItem($columWidth);
       }
-      .wb-col-sm-offset-#{$i} {
+      .pascal-col-sm-offset-#{$i} {
         margin-left: $columWidth;
       }
     }
@@ -46,10 +46,10 @@
   @media print, screen and (min-width: 48em) {
     @for $i from 1 through $columCount {
       $columWidth: ($i/$columCount) * 100%;
-      .wb-col-md-#{$i} {
+      .pascal-col-md-#{$i} {
         @include gridItem($columWidth);
       }
-      .wb-col-md-offset-#{$i} {
+      .pascal-col-md-offset-#{$i} {
         margin-left: $columWidth;
       }
     }
@@ -57,10 +57,10 @@
   @media print, screen and (min-width: 64em) {
     @for $i from 1 through $columCount {
       $columWidth: ($i/$columCount) * 100%;
-      .wb-col-lg-#{$i} {
+      .pascal-col-lg-#{$i} {
         @include gridItem($columWidth);
       }
-      .wb-col-lg-offset-#{$i} {
+      .pascal-col-lg-offset-#{$i} {
         margin-left: $columWidth;
       }
     }
@@ -69,10 +69,10 @@
   @media screen and (min-width: 75em) {
     @for $i from 1 through $columCount {
       $columWidth: ($i/$columCount) * 100%;
-      .wb-col-xl-#{$i} {
+      .pascal-col-xl-#{$i} {
         @include gridItem($columWidth);
       }
-      .wb-col-xl-offset-#{$i} {
+      .pascal-col-xl-offset-#{$i} {
         margin-left: $columWidth;
       }
     }

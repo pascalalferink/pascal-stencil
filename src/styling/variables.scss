@@ -1,11 +1,11 @@
-@import url("https://projectdigitalehuisstijl.zeroheight.com/api/design_tokens?auth=erh0lJcf2UMOLJTMMIVTpw&format=css&id=40498&colorPrefix=wb-&fontPrefix=wb-&dl=1");
+@import url("https://projectdigitalehuisstijl.zeroheight.com/api/design_tokens?auth=erh0lJcf2UMOLJTMMIVTpw&format=css&id=40498&colorPrefix=pascal-&fontPrefix=pascal-&dl=1");
 
 
 /*
     variable naming convenction: (BEM)
 
 
-    1: "wb-" witteveenbos prefix
+    1: "pascal-" witteveenbos prefix
     2: element                                  .keyvisual
     3: element__subelement (2 underscores)      .keyvisual__text
     4: element--large  modifier or variation    .keyvisual__text--large
@@ -14,54 +14,54 @@
 
 
 //colors
-$wb-blue:var(--wb-blue);
+$pascal-blue:var(--pascal-blue);
 //color variants
-$wb-light: var(--wb-white);
+$pascal-light: var(--pascal-white);
 
-$wb-blue--lighten1: var(--wb-c2);
-$wb-blue--lighten2: var(--wb-c3);
-$wb-blue--lighten3: var(--wb-c4);
-$wb-blue--lighten4: var(--wb-background-blue);
+$pascal-blue--lighten1: var(--pascal-c2);
+$pascal-blue--lighten2: var(--pascal-c3);
+$pascal-blue--lighten3: var(--pascal-c4);
+$pascal-blue--lighten4: var(--pascal-background-blue);
 
-$wb-dark: var(--wb-black); //#080D0D;
-$wb-blue--darken1:#0075A3;
-$wb-blue--darken2:#005E7A;
-$wb-blue--darken3:#194654;
-$wb-blue--darken4:#1A2A2F;
+$pascal-dark: var(--pascal-black); //#080D0D;
+$pascal-blue--darken1:#0075A3;
+$pascal-blue--darken2:#005E7A;
+$pascal-blue--darken3:#194654;
+$pascal-blue--darken4:#1A2A2F;
 
 
 //Witteveen+Bos Suplementary  Colors
-$wb-white: var(--wb-white); //#fff;
-$wb-brown: var(--wb-secondary-brown); //#58181D;
-$wb-grey:var(--wb-background-gray-dark); //#79909A;
-$wb-red: var(--wb-secondary-red); //#B5000F;
-$wb-orange:var(--wb-secondary-orange); //#E74E00;
-$wb-yellow:var(--wb-secondary-yellow); //#FFC500;
-$wb-olive:var(--wb-secondary-olive); //#A0AA77;
-$wb-green:var(--wb-secondary-green); //#115038;
-$wb-azure:var(--wb-secondary-azure); //#7AC2BA;
-$wb-violet:var(--wb-secondary-violet); //#251F4A;
-$wb-purple:var(--wb-secondary-purple); //#59134D;
-$wb-pink:var(--wb-secondary-roze); //#DA8E93;
+$pascal-white: var(--pascal-white); //#fff;
+$pascal-brown: var(--pascal-secondary-brown); //#58181D;
+$pascal-grey:var(--pascal-background-gray-dark); //#79909A;
+$pascal-red: var(--pascal-secondary-red); //#B5000F;
+$pascal-orange:var(--pascal-secondary-orange); //#E74E00;
+$pascal-yellow:var(--pascal-secondary-yellow); //#FFC500;
+$pascal-olive:var(--pascal-secondary-olive); //#A0AA77;
+$pascal-green:var(--pascal-secondary-green); //#115038;
+$pascal-azure:var(--pascal-secondary-azure); //#7AC2BA;
+$pascal-violet:var(--pascal-secondary-violet); //#251F4A;
+$pascal-purple:var(--pascal-secondary-purple); //#59134D;
+$pascal-pink:var(--pascal-secondary-roze); //#DA8E93;
 
 //signal colors
-$wb-error: var(--wb-secondary-red); //$wb-red;
-$wb-warning: var(--wb-secondary-yellow); //$wb-yellow;
-$wb-success: var(--wb-signal-green); //#00A03C;
+$pascal-error: var(--pascal-secondary-red); //$pascal-red;
+$pascal-warning: var(--pascal-secondary-yellow); //$pascal-yellow;
+$pascal-success: var(--pascal-signal-green); //#00A03C;
 
 
 //background colors
-$wb-bg: var(--wb-background-gray); //#BFCCD4;
-$wb-bg--dark: var(--wb-background-gray-dark); //$wb-grey;
-$wb-bg--light: var(--wb-background-gray-light); //#EEF0F2;
-$wb-bg--disabled: #DDE6EB;
-$wb-bg--overlay: rgba(9,94,122,.75);
+$pascal-bg: var(--pascal-background-gray); //#BFCCD4;
+$pascal-bg--dark: var(--pascal-background-gray-dark); //$pascal-grey;
+$pascal-bg--light: var(--pascal-background-gray-light); //#EEF0F2;
+$pascal-bg--disabled: #DDE6EB;
+$pascal-bg--overlay: rgba(9,94,122,.75);
 
-$wb-primary: var(--wb-blue); //$wb-blue;
-$wb-secondary: var(--wb-black); //#080D0D;
+$pascal-primary: var(--pascal-blue); //$pascal-blue;
+$pascal-secondary: var(--pascal-black); //#080D0D;
 
 
-$wb-breakpoints: (
+$pascal-breakpoints: (
   sm : 320px,
   md: 768px,
   lg : 1024px,
@@ -71,25 +71,25 @@ $wb-breakpoints: (
 
 
 //header styles
-$wb-h1--size: 2.5rem;
-$wb-h2--size: 2.25rem;
-$wb-h3--size: 1.875rem;
-$wb-h4--size: 1.5rem;
-$wb-h5--size: 1rem;
-$wb-p--size:  1rem;
+$pascal-h1--size: 2.5rem;
+$pascal-h2--size: 2.25rem;
+$pascal-h3--size: 1.875rem;
+$pascal-h4--size: 1.5rem;
+$pascal-h5--size: 1rem;
+$pascal-p--size:  1rem;
 
-$wb-h1--font-family: 'Roboto';
-$wb-h2--font-family: 'Roboto';
-$wb-h3--font-family: 'Roboto';
-$wb-h4--font-family: 'Roboto';
-$wb-h5--font-family: 'Roboto';
+$pascal-h1--font-family: 'Roboto';
+$pascal-h2--font-family: 'Roboto';
+$pascal-h3--font-family: 'Roboto';
+$pascal-h4--font-family: 'Roboto';
+$pascal-h5--font-family: 'Roboto';
 
-$wb-h1_lg--size: 4.75rem;
-$wb-h2_lg--size: 3.75rem;
-$wb-h3_lg--size: 2.5rem;
-$wb-h4_lg--size: 1.875rem;;
-$wb-h5_lg--size: 1.444rem;
-$wb-p_lg--size:  1.125rem;
+$pascal-h1_lg--size: 4.75rem;
+$pascal-h2_lg--size: 3.75rem;
+$pascal-h3_lg--size: 2.5rem;
+$pascal-h4_lg--size: 1.875rem;;
+$pascal-h5_lg--size: 1.444rem;
+$pascal-p_lg--size:  1.125rem;
 
 
 //wb spacing
@@ -103,40 +103,40 @@ $wb_xl--spacing: 2rem;          //32px
 $wb_xxl--spacing: 2.5rem;       //40px
 $wb_xxxl--spacing: 3rem;        //48px
 //default spacing
-$wb-spacing: $wb_xxxs-spacing;
+$pascal-spacing: $wb_xxxs-spacing;
 
 
 
 //grid spacing
 
-$wb-grid_xxs--spacing: 1rem;    //16px
-$wb-grid_xs--spacing: 1.5rem;   //24px
-$wb-grid_sm--spacing: 2rem;     //32px
-$wb-grid_md--spacing: 3rem;     //48px
-$wb-grid_lg--spacing: 4rem;     //64px
-$wb-grid_xl--spacing: 6rem;     //96px
-$wb-grid_xxl--spacing: 10rem;   //160px
+$pascal-grid_xxs--spacing: 1rem;    //16px
+$pascal-grid_xs--spacing: 1.5rem;   //24px
+$pascal-grid_sm--spacing: 2rem;     //32px
+$pascal-grid_md--spacing: 3rem;     //48px
+$pascal-grid_lg--spacing: 4rem;     //64px
+$pascal-grid_xl--spacing: 6rem;     //96px
+$pascal-grid_xxl--spacing: 10rem;   //160px
 //default grid spacing
-$wb-button--spacing: $wb-grid_xxs--spacing;
+$pascal-button--spacing: $pascal-grid_xxs--spacing;
 
 
 
-$wb-button_sm--lineheight: 32px;
-$wb-button_md--lineheight: 40px;
-$wb-button_lg--lineheight: 48px;
+$pascal-button_sm--lineheight: 32px;
+$pascal-button_md--lineheight: 40px;
+$pascal-button_lg--lineheight: 48px;
 //default button line height
-$wb-button--lineheight: $wb-button_lg--lineheight;
+$pascal-button--lineheight: $pascal-button_lg--lineheight;
 
-$wb-button_sm--padding: 0 32px 0 12px;
-$wb-button_md--padding: 0 40px 0 12px;
-$wb-button_lg--padding: 0 48px 0 16px;
+$pascal-button_sm--padding: 0 32px 0 12px;
+$pascal-button_md--padding: 0 40px 0 12px;
+$pascal-button_lg--padding: 0 48px 0 16px;
 //default button line height
-$wb-button--padding: $wb-button_lg--padding;
+$pascal-button--padding: $pascal-button_lg--padding;
 
 
 @import "./reset";
-@import "./wb-grid";
+@import "./pascal-grid";
 @import "./wb_helpers";
-@import "./wb-container";
-@import "./wb-text";
+@import "./pascal-container";
+@import "./pascal-text";
 

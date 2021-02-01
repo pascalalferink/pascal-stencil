@@ -1,10 +1,10 @@
 @charset "UTF-8";
-@import url("https://projectdigitalehuisstijl.zeroheight.com/api/design_tokens?auth=erh0lJcf2UMOLJTMMIVTpw&format=css&id=40498&colorPrefix=wb-&fontPrefix=wb-&dl=1");
+@import url("https://projectdigitalehuisstijl.zeroheight.com/api/design_tokens?auth=erh0lJcf2UMOLJTMMIVTpw&format=css&id=40498&colorPrefix=pascal-&fontPrefix=pascal-&dl=1");
 /*
     variable naming convenction: (BEM)
 
 
-    1: "wb-" witteveenbos prefix
+    1: "pascal-" witteveenbos prefix
     2: element                                  .keyvisual
     3: element__subelement (2 underscores)      .keyvisual__text
     4: element--large  modifier or variation    .keyvisual__text--large
@@ -173,7 +173,7 @@ canvas {
 [hidden], template {
   display: none; }
 
-.wb-foundation-mq {
+.pascal-foundation-mq {
   font-family: "small=0em&mobile-small=30em&mobile=40em&medium=48em&large=64em&xlarge=75em&xxlarge=90em&xxxlarge=100em"; }
 
 html {
@@ -209,10 +209,10 @@ select {
   width: 100%;
   border-radius: 0; }
 
-.wb-map_canvas embed, .wb-map_canvas img, .wb-map_canvas object {
+.pascal-map_canvas embed, .pascal-map_canvas img, .pascal-map_canvas object {
   max-width: none !important; }
 
-.wb-mqa-display embed, .wb-mqa-display img, .wb-mqa-display object {
+.pascal-mqa-display embed, .pascal-mqa-display img, .pascal-mqa-display object {
   max-width: none !important; }
 
 button {
@@ -349,7 +349,7 @@ kbd {
   margin: 0;
   padding: .125rem .25rem 0; }
 
-.wb-row {
+.pascal-row {
   margin-right: auto;
   margin-left: auto;
   display: -ms-flexbox;
@@ -359,394 +359,394 @@ kbd {
   margin-right: -1rem;
   margin-left: -1rem; }
 
-.wb-col {
+.pascal-col {
   padding-right: 1rem;
   padding-left: 1rem;
   flex-basis: 0;
   flex-grow: 1;
   max-width: 100%; }
 
-.wb-col-1 {
+.pascal-col-1 {
   -ms-flex: 0 0 8.33333%;
   flex: 0 0 8.33333%;
   max-width: 8.33333%; }
 
-.wb-col-2 {
+.pascal-col-2 {
   -ms-flex: 0 0 16.66667%;
   flex: 0 0 16.66667%;
   max-width: 16.66667%; }
 
-.wb-col-3 {
+.pascal-col-3 {
   -ms-flex: 0 0 25%;
   flex: 0 0 25%;
   max-width: 25%; }
 
-.wb-col-4 {
+.pascal-col-4 {
   -ms-flex: 0 0 33.33333%;
   flex: 0 0 33.33333%;
   max-width: 33.33333%; }
 
-.wb-col-5 {
+.pascal-col-5 {
   -ms-flex: 0 0 41.66667%;
   flex: 0 0 41.66667%;
   max-width: 41.66667%; }
 
-.wb-col-6 {
+.pascal-col-6 {
   -ms-flex: 0 0 50%;
   flex: 0 0 50%;
   max-width: 50%; }
 
-.wb-col-7 {
+.pascal-col-7 {
   -ms-flex: 0 0 58.33333%;
   flex: 0 0 58.33333%;
   max-width: 58.33333%; }
 
-.wb-col-8 {
+.pascal-col-8 {
   -ms-flex: 0 0 66.66667%;
   flex: 0 0 66.66667%;
   max-width: 66.66667%; }
 
-.wb-col-9 {
+.pascal-col-9 {
   -ms-flex: 0 0 75%;
   flex: 0 0 75%;
   max-width: 75%; }
 
-.wb-col-10 {
+.pascal-col-10 {
   -ms-flex: 0 0 83.33333%;
   flex: 0 0 83.33333%;
   max-width: 83.33333%; }
 
-.wb-col-11 {
+.pascal-col-11 {
   -ms-flex: 0 0 91.66667%;
   flex: 0 0 91.66667%;
   max-width: 91.66667%; }
 
-.wb-col-12 {
+.pascal-col-12 {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%; }
 
 @media print, screen and (min-width: 40em) {
-  .wb-col-sm-1 {
+  .pascal-col-sm-1 {
     -ms-flex: 0 0 8.33333%;
     flex: 0 0 8.33333%;
     max-width: 8.33333%; }
-  .wb-col-sm-offset-1 {
+  .pascal-col-sm-offset-1 {
     margin-left: 8.33333%; }
-  .wb-col-sm-2 {
+  .pascal-col-sm-2 {
     -ms-flex: 0 0 16.66667%;
     flex: 0 0 16.66667%;
     max-width: 16.66667%; }
-  .wb-col-sm-offset-2 {
+  .pascal-col-sm-offset-2 {
     margin-left: 16.66667%; }
-  .wb-col-sm-3 {
+  .pascal-col-sm-3 {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%; }
-  .wb-col-sm-offset-3 {
+  .pascal-col-sm-offset-3 {
     margin-left: 25%; }
-  .wb-col-sm-4 {
+  .pascal-col-sm-4 {
     -ms-flex: 0 0 33.33333%;
     flex: 0 0 33.33333%;
     max-width: 33.33333%; }
-  .wb-col-sm-offset-4 {
+  .pascal-col-sm-offset-4 {
     margin-left: 33.33333%; }
-  .wb-col-sm-5 {
+  .pascal-col-sm-5 {
     -ms-flex: 0 0 41.66667%;
     flex: 0 0 41.66667%;
     max-width: 41.66667%; }
-  .wb-col-sm-offset-5 {
+  .pascal-col-sm-offset-5 {
     margin-left: 41.66667%; }
-  .wb-col-sm-6 {
+  .pascal-col-sm-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%; }
-  .wb-col-sm-offset-6 {
+  .pascal-col-sm-offset-6 {
     margin-left: 50%; }
-  .wb-col-sm-7 {
+  .pascal-col-sm-7 {
     -ms-flex: 0 0 58.33333%;
     flex: 0 0 58.33333%;
     max-width: 58.33333%; }
-  .wb-col-sm-offset-7 {
+  .pascal-col-sm-offset-7 {
     margin-left: 58.33333%; }
-  .wb-col-sm-8 {
+  .pascal-col-sm-8 {
     -ms-flex: 0 0 66.66667%;
     flex: 0 0 66.66667%;
     max-width: 66.66667%; }
-  .wb-col-sm-offset-8 {
+  .pascal-col-sm-offset-8 {
     margin-left: 66.66667%; }
-  .wb-col-sm-9 {
+  .pascal-col-sm-9 {
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
     max-width: 75%; }
-  .wb-col-sm-offset-9 {
+  .pascal-col-sm-offset-9 {
     margin-left: 75%; }
-  .wb-col-sm-10 {
+  .pascal-col-sm-10 {
     -ms-flex: 0 0 83.33333%;
     flex: 0 0 83.33333%;
     max-width: 83.33333%; }
-  .wb-col-sm-offset-10 {
+  .pascal-col-sm-offset-10 {
     margin-left: 83.33333%; }
-  .wb-col-sm-11 {
+  .pascal-col-sm-11 {
     -ms-flex: 0 0 91.66667%;
     flex: 0 0 91.66667%;
     max-width: 91.66667%; }
-  .wb-col-sm-offset-11 {
+  .pascal-col-sm-offset-11 {
     margin-left: 91.66667%; }
-  .wb-col-sm-12 {
+  .pascal-col-sm-12 {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%; }
-  .wb-col-sm-offset-12 {
+  .pascal-col-sm-offset-12 {
     margin-left: 100%; } }
 
 @media print, screen and (min-width: 48em) {
-  .wb-col-md-1 {
+  .pascal-col-md-1 {
     -ms-flex: 0 0 8.33333%;
     flex: 0 0 8.33333%;
     max-width: 8.33333%; }
-  .wb-col-md-offset-1 {
+  .pascal-col-md-offset-1 {
     margin-left: 8.33333%; }
-  .wb-col-md-2 {
+  .pascal-col-md-2 {
     -ms-flex: 0 0 16.66667%;
     flex: 0 0 16.66667%;
     max-width: 16.66667%; }
-  .wb-col-md-offset-2 {
+  .pascal-col-md-offset-2 {
     margin-left: 16.66667%; }
-  .wb-col-md-3 {
+  .pascal-col-md-3 {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%; }
-  .wb-col-md-offset-3 {
+  .pascal-col-md-offset-3 {
     margin-left: 25%; }
-  .wb-col-md-4 {
+  .pascal-col-md-4 {
     -ms-flex: 0 0 33.33333%;
     flex: 0 0 33.33333%;
     max-width: 33.33333%; }
-  .wb-col-md-offset-4 {
+  .pascal-col-md-offset-4 {
     margin-left: 33.33333%; }
-  .wb-col-md-5 {
+  .pascal-col-md-5 {
     -ms-flex: 0 0 41.66667%;
     flex: 0 0 41.66667%;
     max-width: 41.66667%; }
-  .wb-col-md-offset-5 {
+  .pascal-col-md-offset-5 {
     margin-left: 41.66667%; }
-  .wb-col-md-6 {
+  .pascal-col-md-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%; }
-  .wb-col-md-offset-6 {
+  .pascal-col-md-offset-6 {
     margin-left: 50%; }
-  .wb-col-md-7 {
+  .pascal-col-md-7 {
     -ms-flex: 0 0 58.33333%;
     flex: 0 0 58.33333%;
     max-width: 58.33333%; }
-  .wb-col-md-offset-7 {
+  .pascal-col-md-offset-7 {
     margin-left: 58.33333%; }
-  .wb-col-md-8 {
+  .pascal-col-md-8 {
     -ms-flex: 0 0 66.66667%;
     flex: 0 0 66.66667%;
     max-width: 66.66667%; }
-  .wb-col-md-offset-8 {
+  .pascal-col-md-offset-8 {
     margin-left: 66.66667%; }
-  .wb-col-md-9 {
+  .pascal-col-md-9 {
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
     max-width: 75%; }
-  .wb-col-md-offset-9 {
+  .pascal-col-md-offset-9 {
     margin-left: 75%; }
-  .wb-col-md-10 {
+  .pascal-col-md-10 {
     -ms-flex: 0 0 83.33333%;
     flex: 0 0 83.33333%;
     max-width: 83.33333%; }
-  .wb-col-md-offset-10 {
+  .pascal-col-md-offset-10 {
     margin-left: 83.33333%; }
-  .wb-col-md-11 {
+  .pascal-col-md-11 {
     -ms-flex: 0 0 91.66667%;
     flex: 0 0 91.66667%;
     max-width: 91.66667%; }
-  .wb-col-md-offset-11 {
+  .pascal-col-md-offset-11 {
     margin-left: 91.66667%; }
-  .wb-col-md-12 {
+  .pascal-col-md-12 {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%; }
-  .wb-col-md-offset-12 {
+  .pascal-col-md-offset-12 {
     margin-left: 100%; } }
 
 @media print, screen and (min-width: 64em) {
-  .wb-col-lg-1 {
+  .pascal-col-lg-1 {
     -ms-flex: 0 0 8.33333%;
     flex: 0 0 8.33333%;
     max-width: 8.33333%; }
-  .wb-col-lg-offset-1 {
+  .pascal-col-lg-offset-1 {
     margin-left: 8.33333%; }
-  .wb-col-lg-2 {
+  .pascal-col-lg-2 {
     -ms-flex: 0 0 16.66667%;
     flex: 0 0 16.66667%;
     max-width: 16.66667%; }
-  .wb-col-lg-offset-2 {
+  .pascal-col-lg-offset-2 {
     margin-left: 16.66667%; }
-  .wb-col-lg-3 {
+  .pascal-col-lg-3 {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%; }
-  .wb-col-lg-offset-3 {
+  .pascal-col-lg-offset-3 {
     margin-left: 25%; }
-  .wb-col-lg-4 {
+  .pascal-col-lg-4 {
     -ms-flex: 0 0 33.33333%;
     flex: 0 0 33.33333%;
     max-width: 33.33333%; }
-  .wb-col-lg-offset-4 {
+  .pascal-col-lg-offset-4 {
     margin-left: 33.33333%; }
-  .wb-col-lg-5 {
+  .pascal-col-lg-5 {
     -ms-flex: 0 0 41.66667%;
     flex: 0 0 41.66667%;
     max-width: 41.66667%; }
-  .wb-col-lg-offset-5 {
+  .pascal-col-lg-offset-5 {
     margin-left: 41.66667%; }
-  .wb-col-lg-6 {
+  .pascal-col-lg-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%; }
-  .wb-col-lg-offset-6 {
+  .pascal-col-lg-offset-6 {
     margin-left: 50%; }
-  .wb-col-lg-7 {
+  .pascal-col-lg-7 {
     -ms-flex: 0 0 58.33333%;
     flex: 0 0 58.33333%;
     max-width: 58.33333%; }
-  .wb-col-lg-offset-7 {
+  .pascal-col-lg-offset-7 {
     margin-left: 58.33333%; }
-  .wb-col-lg-8 {
+  .pascal-col-lg-8 {
     -ms-flex: 0 0 66.66667%;
     flex: 0 0 66.66667%;
     max-width: 66.66667%; }
-  .wb-col-lg-offset-8 {
+  .pascal-col-lg-offset-8 {
     margin-left: 66.66667%; }
-  .wb-col-lg-9 {
+  .pascal-col-lg-9 {
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
     max-width: 75%; }
-  .wb-col-lg-offset-9 {
+  .pascal-col-lg-offset-9 {
     margin-left: 75%; }
-  .wb-col-lg-10 {
+  .pascal-col-lg-10 {
     -ms-flex: 0 0 83.33333%;
     flex: 0 0 83.33333%;
     max-width: 83.33333%; }
-  .wb-col-lg-offset-10 {
+  .pascal-col-lg-offset-10 {
     margin-left: 83.33333%; }
-  .wb-col-lg-11 {
+  .pascal-col-lg-11 {
     -ms-flex: 0 0 91.66667%;
     flex: 0 0 91.66667%;
     max-width: 91.66667%; }
-  .wb-col-lg-offset-11 {
+  .pascal-col-lg-offset-11 {
     margin-left: 91.66667%; }
-  .wb-col-lg-12 {
+  .pascal-col-lg-12 {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%; }
-  .wb-col-lg-offset-12 {
+  .pascal-col-lg-offset-12 {
     margin-left: 100%; } }
 
 @media screen and (min-width: 75em) {
-  .wb-col-xl-1 {
+  .pascal-col-xl-1 {
     -ms-flex: 0 0 8.33333%;
     flex: 0 0 8.33333%;
     max-width: 8.33333%; }
-  .wb-col-xl-offset-1 {
+  .pascal-col-xl-offset-1 {
     margin-left: 8.33333%; }
-  .wb-col-xl-2 {
+  .pascal-col-xl-2 {
     -ms-flex: 0 0 16.66667%;
     flex: 0 0 16.66667%;
     max-width: 16.66667%; }
-  .wb-col-xl-offset-2 {
+  .pascal-col-xl-offset-2 {
     margin-left: 16.66667%; }
-  .wb-col-xl-3 {
+  .pascal-col-xl-3 {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%; }
-  .wb-col-xl-offset-3 {
+  .pascal-col-xl-offset-3 {
     margin-left: 25%; }
-  .wb-col-xl-4 {
+  .pascal-col-xl-4 {
     -ms-flex: 0 0 33.33333%;
     flex: 0 0 33.33333%;
     max-width: 33.33333%; }
-  .wb-col-xl-offset-4 {
+  .pascal-col-xl-offset-4 {
     margin-left: 33.33333%; }
-  .wb-col-xl-5 {
+  .pascal-col-xl-5 {
     -ms-flex: 0 0 41.66667%;
     flex: 0 0 41.66667%;
     max-width: 41.66667%; }
-  .wb-col-xl-offset-5 {
+  .pascal-col-xl-offset-5 {
     margin-left: 41.66667%; }
-  .wb-col-xl-6 {
+  .pascal-col-xl-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%; }
-  .wb-col-xl-offset-6 {
+  .pascal-col-xl-offset-6 {
     margin-left: 50%; }
-  .wb-col-xl-7 {
+  .pascal-col-xl-7 {
     -ms-flex: 0 0 58.33333%;
     flex: 0 0 58.33333%;
     max-width: 58.33333%; }
-  .wb-col-xl-offset-7 {
+  .pascal-col-xl-offset-7 {
     margin-left: 58.33333%; }
-  .wb-col-xl-8 {
+  .pascal-col-xl-8 {
     -ms-flex: 0 0 66.66667%;
     flex: 0 0 66.66667%;
     max-width: 66.66667%; }
-  .wb-col-xl-offset-8 {
+  .pascal-col-xl-offset-8 {
     margin-left: 66.66667%; }
-  .wb-col-xl-9 {
+  .pascal-col-xl-9 {
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
     max-width: 75%; }
-  .wb-col-xl-offset-9 {
+  .pascal-col-xl-offset-9 {
     margin-left: 75%; }
-  .wb-col-xl-10 {
+  .pascal-col-xl-10 {
     -ms-flex: 0 0 83.33333%;
     flex: 0 0 83.33333%;
     max-width: 83.33333%; }
-  .wb-col-xl-offset-10 {
+  .pascal-col-xl-offset-10 {
     margin-left: 83.33333%; }
-  .wb-col-xl-11 {
+  .pascal-col-xl-11 {
     -ms-flex: 0 0 91.66667%;
     flex: 0 0 91.66667%;
     max-width: 91.66667%; }
-  .wb-col-xl-offset-11 {
+  .pascal-col-xl-offset-11 {
     margin-left: 91.66667%; }
-  .wb-col-xl-12 {
+  .pascal-col-xl-12 {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%; }
-  .wb-col-xl-offset-12 {
+  .pascal-col-xl-offset-12 {
     margin-left: 100%; } }
 
-.wb-hide {
+.pascal-hide {
   display: none; }
 
 @media print, screen and (min-width: 40em) {
-  .wb-sm-hide {
+  .pascal-sm-hide {
     display: none; } }
 
 @media print, screen and (min-width: 48em) {
-  .wb-md-hide {
+  .pascal-md-hide {
     display: none; } }
 
 @media print, screen and (min-width: 64em) {
-  .wb-lg-hide {
+  .pascal-lg-hide {
     display: none; } }
 
 @media print, screen and (min-width: 75em) {
-  .wb-xl-hide {
+  .pascal-xl-hide {
     display: none; } }
 
-.wb-container {
+.pascal-container {
   max-width: 1616px;
   margin: 0 auto;
   width: 100%;
   padding: 0 1rem; }
-  .wb-container__fluid {
+  .pascal-container__fluid {
     max-width: 100%;
     margin: 0 auto;
     width: 100%;
@@ -761,7 +761,7 @@ p {
   font-size: 1.125rem; }
 
 h1, h2, h3, h4, h5 {
-  color: var(--wb-black); }
+  color: var(--pascal-black); }
 
 h1 {
   font-size: 2.5rem;
@@ -783,10 +783,10 @@ h5 {
   font-size: 1rem;
   font-weight: 400; }
 
-.wb-footer {
-  background-color: var(--wb-white);
+.pascal-footer {
+  background-color: var(--pascal-white);
   box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.1); }
-  .wb-footer__links {
+  .pascal-footer__links {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -796,11 +796,11 @@ h5 {
     font-size: 0.75rem;
     margin: 0;
     padding: 0; }
-    .wb-footer__links li {
+    .pascal-footer__links li {
       position: relative;
       list-style-type: none;
       margin-right: 1.5rem; }
-  .wb-footer__copyright + li + li:before {
+  .pascal-footer__copyright + li + li:before {
     content: "-";
     position: absolute;
     margin-left: -0.75rem; }

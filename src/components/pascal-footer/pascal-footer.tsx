@@ -2,8 +2,8 @@ import { Component, h } from '@stencil/core';
 import { Prop } from '@stencil/core';
 
 @Component({
-  tag: 'wb-footer',
-  styleUrl: 'wb-footer.css',
+  tag: 'pascal-footer',
+  styleUrl: 'pascal-footer.css',
   shadow: false,
 })
 export class WbFooter {
@@ -13,10 +13,10 @@ export class WbFooter {
 
   render() {
     return (
-      <footer class={"wb-footer "+ this.class}>
-        <div class="wb-container">
+      <footer class={"pascal-footer "+ this.class}>
+        <div class="pascal-container">
           {this.copyright &&
-            <div class="wb-footer__copyright">{new Date().getFullYear()} © {this.copyright}</div>
+            <div class="pascal-footer__copyright">{new Date().getFullYear()} © {this.copyright}</div>
           }
           </div>
 
