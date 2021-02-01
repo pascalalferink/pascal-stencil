@@ -1,0 +1,35 @@
+@import "../../styling/variables";
+
+.wb-footer {
+	background-color: $wb-white;
+	box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.1);
+
+	&__links {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+		width: 100%;
+		height: 80px;
+		font-size: 0.75rem;
+		margin: 0;
+		padding: 0;
+
+
+		li {
+			position: relative;
+			list-style-type: none;
+			margin-right: 1.5rem;
+		}
+	}
+	&__copyright {
+
+		& + li + li {
+			&:before {
+				content: "-";
+				position: absolute;
+				margin-left: -0.75rem;
+			}
+		}
+	}
+}

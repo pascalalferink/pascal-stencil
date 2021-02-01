@@ -1,0 +1,25 @@
+.wb-hide {
+    display: none;
+}
+
+@media print, screen and (min-width: 40em) {
+    .wb-sm-hide {
+        display: none;
+    }
+}
+
+@media print, screen and (min-width: 48em) {
+    .wb-md-hide {
+        display: none;
+    }
+}
+@media print, screen and (min-width: 64em) {
+    .wb-lg-hide {
+        display: none;
+    }
+}
+@media print, screen and (min-width: 75em) {
+    .wb-xl-hide {
+        display: none;
+    }
+}

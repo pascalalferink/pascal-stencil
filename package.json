@@ -1,0 +1,42 @@
+{
+  "name": "pascal-components",
+  "version": "0.0.2",
+  "description": "webcomponents for W+B",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/components.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/test/test.js",
+  "files": [
+    "dist/",
+    "loader"
+  ],
+  "scripts": {
+    "build": "stencil build --docs",
+    "lint": "tslint -p ./tsconfig.json",
+    "prepare": "npm run build --prod",
+    "prepublishOnly": "npm test && npm run lint",
+    "start": "node-sass ./src/components -o ./src/components --watch && stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@stencil/core": "1.8.1",
+    "@types/jest": "24.0.23",
+    "@types/puppeteer": "1.19.0",
+    "jest": "24.9.0",
+    "jest-cli": "24.9.0",
+    "node-sass": "^5.0.0",
+    "puppeteer": "1.19.0",
+    "tslint": "5.18.0",
+    "workbox-build": "4.3.1"
+  },
+  "engines": {
+    "node": ">=9.0.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,142 @@
+@import url("https://projectdigitalehuisstijl.zeroheight.com/api/design_tokens?auth=erh0lJcf2UMOLJTMMIVTpw&format=css&id=40498&colorPrefix=wb-&fontPrefix=wb-&dl=1");
+
+
+/*
+    variable naming convenction: (BEM)
+
+
+    1: "wb-" witteveenbos prefix
+    2: element                                  .keyvisual
+    3: element__subelement (2 underscores)      .keyvisual__text
+    4: element--large  modifier or variation    .keyvisual__text--large
+    5: breakpoint                               .keyvisual__text_lg--large
+*/
+
+
+//colors
+$wb-blue:var(--wb-blue);
+//color variants
+$wb-light: var(--wb-white);
+
+$wb-blue--lighten1: var(--wb-c2);
+$wb-blue--lighten2: var(--wb-c3);
+$wb-blue--lighten3: var(--wb-c4);
+$wb-blue--lighten4: var(--wb-background-blue);
+
+$wb-dark: var(--wb-black); //#080D0D;
+$wb-blue--darken1:#0075A3;
+$wb-blue--darken2:#005E7A;
+$wb-blue--darken3:#194654;
+$wb-blue--darken4:#1A2A2F;
+
+
+//Witteveen+Bos Suplementary  Colors
+$wb-white: var(--wb-white); //#fff;
+$wb-brown: var(--wb-secondary-brown); //#58181D;
+$wb-grey:var(--wb-background-gray-dark); //#79909A;
+$wb-red: var(--wb-secondary-red); //#B5000F;
+$wb-orange:var(--wb-secondary-orange); //#E74E00;
+$wb-yellow:var(--wb-secondary-yellow); //#FFC500;
+$wb-olive:var(--wb-secondary-olive); //#A0AA77;
+$wb-green:var(--wb-secondary-green); //#115038;
+$wb-azure:var(--wb-secondary-azure); //#7AC2BA;
+$wb-violet:var(--wb-secondary-violet); //#251F4A;
+$wb-purple:var(--wb-secondary-purple); //#59134D;
+$wb-pink:var(--wb-secondary-roze); //#DA8E93;
+
+//signal colors
+$wb-error: var(--wb-secondary-red); //$wb-red;
+$wb-warning: var(--wb-secondary-yellow); //$wb-yellow;
+$wb-success: var(--wb-signal-green); //#00A03C;
+
+
+//background colors
+$wb-bg: var(--wb-background-gray); //#BFCCD4;
+$wb-bg--dark: var(--wb-background-gray-dark); //$wb-grey;
+$wb-bg--light: var(--wb-background-gray-light); //#EEF0F2;
+$wb-bg--disabled: #DDE6EB;
+$wb-bg--overlay: rgba(9,94,122,.75);
+
+$wb-primary: var(--wb-blue); //$wb-blue;
+$wb-secondary: var(--wb-black); //#080D0D;
+
+
+$wb-breakpoints: (
+  sm : 320px,
+  md: 768px,
+  lg : 1024px,
+  xl : 1280px
+);
+
+
+
+//header styles
+$wb-h1--size: 2.5rem;
+$wb-h2--size: 2.25rem;
+$wb-h3--size: 1.875rem;
+$wb-h4--size: 1.5rem;
+$wb-h5--size: 1rem;
+$wb-p--size:  1rem;
+
+$wb-h1--font-family: 'Roboto';
+$wb-h2--font-family: 'Roboto';
+$wb-h3--font-family: 'Roboto';
+$wb-h4--font-family: 'Roboto';
+$wb-h5--font-family: 'Roboto';
+
+$wb-h1_lg--size: 4.75rem;
+$wb-h2_lg--size: 3.75rem;
+$wb-h3_lg--size: 2.5rem;
+$wb-h4_lg--size: 1.875rem;;
+$wb-h5_lg--size: 1.444rem;
+$wb-p_lg--size:  1.125rem;
+
+
+//wb spacing
+$wb_xxxs-spacing: 0.125rem;     //2px
+$wb_xxs--spacing: 0.25rem;      //4px
+$wb_xs--spacing: 0.5rem;        //8px
+$wb_sm--spacing: 0.75rem;       //12px
+$wb_md--spacing: 1rem;          //16px
+$wb_lg--spacing: 1.5rem;        //24px
+$wb_xl--spacing: 2rem;          //32px
+$wb_xxl--spacing: 2.5rem;       //40px
+$wb_xxxl--spacing: 3rem;        //48px
+//default spacing
+$wb-spacing: $wb_xxxs-spacing;
+
+
+
+//grid spacing
+
+$wb-grid_xxs--spacing: 1rem;    //16px
+$wb-grid_xs--spacing: 1.5rem;   //24px
+$wb-grid_sm--spacing: 2rem;     //32px
+$wb-grid_md--spacing: 3rem;     //48px
+$wb-grid_lg--spacing: 4rem;     //64px
+$wb-grid_xl--spacing: 6rem;     //96px
+$wb-grid_xxl--spacing: 10rem;   //160px
+//default grid spacing
+$wb-button--spacing: $wb-grid_xxs--spacing;
+
+
+
+$wb-button_sm--lineheight: 32px;
+$wb-button_md--lineheight: 40px;
+$wb-button_lg--lineheight: 48px;
+//default button line height
+$wb-button--lineheight: $wb-button_lg--lineheight;
+
+$wb-button_sm--padding: 0 32px 0 12px;
+$wb-button_md--padding: 0 40px 0 12px;
+$wb-button_lg--padding: 0 48px 0 16px;
+//default button line height
+$wb-button--padding: $wb-button_lg--padding;
+
+
+@import "./reset";
+@import "./wb-grid";
+@import "./wb_helpers";
+@import "./wb-container";
+@import "./wb-text";
+
