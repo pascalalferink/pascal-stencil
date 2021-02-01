@@ -1,6 +1,6 @@
 {
-  "name": "pascal-components",
-  "version": "0.0.2",
+  "name": "pascal-components2",
+  "version": "0.0.3",
   "description": "webcomponents for W+B",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
